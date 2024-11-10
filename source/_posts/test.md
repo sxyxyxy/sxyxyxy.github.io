@@ -7,7 +7,7 @@ tags:
 # test
 test
 
-```
+```c++
 #include <iostream>
 
 int main(){
