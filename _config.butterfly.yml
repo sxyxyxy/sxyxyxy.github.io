@@ -63,7 +63,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/avator.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -94,8 +94,8 @@ category_img:
 #  - category name: xxxxx
 category_per_img:
 
-# The background image of footer
-footer_img: /img/footer_img.jpg
+# The:qbackground image of footer
+footer_img: 'linear-gradient(135deg, #0a52b7, 60%, #167b84 100%)'
 
 # Website Background
 # Can set it to color or image url
@@ -171,8 +171,8 @@ subtitle:
   source: false 
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - subtitle1
-    - hhhhhhhhh
+    - This is subtitle1
+    - This is subtitle2
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -297,7 +297,7 @@ aside:
       link: https://github.com/sxyxyxy
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: Welcome! This is announcement.
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -1043,7 +1043,6 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
-
 # CDN Settings
 # Don't modify the following settings unless you know how they work
 CDN:
